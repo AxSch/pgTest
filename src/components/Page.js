@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Content from './Content';
+import Sidebar from './Sidebar';
 
 class Page extends Component {
   render() {
@@ -21,6 +22,7 @@ class Page extends Component {
       <div className="page__wrapper" >
         <h1>Hello</h1>
         {Content(listObj)}
+        {Sidebar()}
       </div>
     );
   }
