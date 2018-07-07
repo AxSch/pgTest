@@ -1,0 +1,11 @@
+.sidebar__wrapper {
+    display: grid;
+    flex-direction: row;
+    height: 100%;
+    margin: 20px;
+}
+
+.sidebar__content {
+    padding: 20px;
+    border: 2px solid blue;
+}
