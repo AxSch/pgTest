@@ -1,0 +1,20 @@
+.content__wrapper {
+    display: grid;
+    height: 100%;
+    margin: 20px;
+}
+
+.item__content {
+    border: 2px solid blue;
+    padding: 20px;
+}
+
+.item__content img {
+    width: 100%;
+}
+
+.item__paraGraphs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    border: 2px solid red;
+}

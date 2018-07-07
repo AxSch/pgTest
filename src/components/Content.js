@@ -1,9 +1,10 @@
 import React from 'react';
+import '../scss/Content.scss';
 
 const Content = (listOfObjects) => {
   return listOfObjects.map(item => {
     return (
-      <div className="items__wrapper">
+      <div className="content__wrapper">
           <div className="item__content">
             <img src="https://picsum.photos/288/198/?random" alt="random_image"/>
             <div className="item__paraGraphs">
